@@ -23,12 +23,11 @@ body {
     linear-gradient(135deg, #f7f9fb 0%, #edf2f7 100%);
   color: var(--text);
 }
-
 a {
-  color: inherit;
-  text-decoration: none;
+  color: blue;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
-
 .page-shell {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
